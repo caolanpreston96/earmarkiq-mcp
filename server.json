@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.earmarkiq/earmarkiq",
+  "title": "earmarkIQ",
+  "description": "Read-only access to your own UK bank data: spending, subscriptions, payday plan, net worth.",
+  "version": "1.0.0",
+  "websiteUrl": "https://earmarkiq.app/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.earmarkiq.app/mcp"
+    }
+  ]
+}
